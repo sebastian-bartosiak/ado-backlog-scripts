@@ -1,0 +1,17 @@
+[project]
+name = "ado-backlog-scripts"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruamel.yaml",
+    "azure-devops",
+    "python-dotenv",
+    "html2text",
+]
+
+[tool.uv]
+package = false

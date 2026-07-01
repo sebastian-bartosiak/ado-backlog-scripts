@@ -1,0 +1,14 @@
+# Secrets / local config
+.env
+.env.*
+.vscode/.env
+
+# Script output (may contain sensitive project details)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
